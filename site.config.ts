@@ -2,7 +2,7 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '101ffcdcef71463c81c9ecf20130d74b',
+  rootNotionPageId: 'e75a8a6c2cb74196b40077d9e637939a',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -11,7 +11,7 @@ export default siteConfig({
   // basic site info (required)
   name: 'Функционально Ориентированное Программирование (ФОП)',
   domain: 'fop.davidshekunts.ru',
-  author: '👨🏻 David Shekunts',
+  author: '👨🏻 David Shekunts 👴🏿',
 
   // open graph metadata (optional)
   description:
@@ -45,24 +45,21 @@ export default siteConfig({
   // example:
   //
   pageUrlOverrides: {
-    '/': '101ffcdcef71463c81c9ecf20130d74b',
-    '/usefull-links': '73b7e860132b492ea91e0fbbeb14629a',
-    '/announcements': '57f7439098e945cb9702b6cd8c19ff4d',
-    '/dictionary': '36ca2b544a5540229caf9749f03d2a6c',
+    '/': 'e75a8a6c2cb74196b40077d9e637939a',
 
-    '/origins/you-dont-know-oop': '220d5d62394c468298f432889ab8b89e',
-    '/origins/you-have-never-used-oop': '193737ff29f84a388dcfc287d2f803f3',
-    '/origins/main-problem-of-oop': '9e8377d8ebd64c7f9fde9c04da75182e',
+    '/origins/you-dont-know-oop': 'eca471eb866f44f49bdc6d41982a5f40',
+    '/origins/you-have-never-used-oop': 'b67c730b3fab4d5cb272b48f05eee0a9',
+    '/origins/main-problem-of-oop': 'e5a9cbd25bc7435eb34162e0cec440c1',
     '/origins/why-fp-and-pp-is-not-a-solution':
-      'c282701868044c218e89039511d9dce4',
-    '/origins/fop-birth': 'f9b1e8292d6c4a6da4d693ad90e438b9',
+      '01ce5abb272e406496b60c1132c54739',
+    '/origins/fop-birth': '73fadd0dd75a460589726da052c3e8ff',
 
-    '/flexibility-is-must': 'ea0b8ced6fdc4f969eb36d253c662373',
-    '/process-first-design': 'e072d9d1986a41eca9a16a0c4606261e',
-    '/data-oriented-architecture': 'd2400fe32f044cb5a01881d0b17a9ba6',
-    '/wynwyn': 'e11e845af671421e9b902aab63377a25',
-    '/explicit-better-implicit': '7f2d4b25646049ee8a3e8eb8acdd04df',
-    '/occams-chainsaw': 'be9739f4b9c44c1d985eec15442b8638'
+    '/flexibility-is-must': 'cc975187f3c14fba99caa5c807301c4a',
+    '/process-first-design': '5148460642b647ae871375cc7a2b5575',
+    '/data-oriented-architecture': '1a5dfe8836e94022a2e6e2e87d677982',
+    '/wynwyn': '38ec934805074a75bdcc89cfd2711d09',
+    '/explicit-better-implicit': 'de28216783954051ade93a6a5ae1bee2',
+    '/occams-chainsaw': '7c4a4ea6eb90499b93e7e09cea3abc40'
   },
   // pageUrlOverrides: null,
 

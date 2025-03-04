@@ -29,7 +29,7 @@ export default siteConfig({
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
   defaultPageIcon: null,
-  defaultPageCover: null,
+  defaultPageCover: "https://fop.davidshekunts.com/images/book_cover.png",
   defaultPageCoverPosition: 0.5,
 
   // whether or not to enable support for LQIP preview images (optional)
@@ -43,7 +43,6 @@ export default siteConfig({
   // map of notion page IDs to URL paths (optional)
   // any pages defined here will override their default URL paths
   // example:
-  //
   pageUrlOverrides: {
     '/': '1abb59d9b4c9809abaf7c3d7d045c3db',
 

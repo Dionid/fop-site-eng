@@ -169,20 +169,8 @@ export const NotionPage: React.FC<types.PageProps> = ({
   const keys = Object.keys(recordMap?.block || {})
   const block = recordMap?.block?.[keys[0]]?.value
 
-  // const isRootPage =
-  //   parsePageId(block?.id) === parsePageId(site?.rootNotionPageId)
-  // const isBlogPost =
-  //   block?.type === 'page' && block?.parent_table === 'collection'
-
   const showTableOfContents = true
   const minTableOfContentsItems = 3
-
-  // const pageAside = React.useMemo(
-  //   () => (
-  //     <PageAside block={block} recordMap={recordMap} isBlogPost={isBlogPost} />
-  //   ),
-  //   [block, recordMap, isBlogPost]
-  // )
 
   const footer = React.useMemo(() => <Footer />, [])
 
@@ -195,14 +183,6 @@ export const NotionPage: React.FC<types.PageProps> = ({
   }
 
   const title = getBlockTitle(block, recordMap) || site.name
-
-  // console.log('notion page', {
-  //   isDev: config.isDev,
-  //   title,
-  //   pageId,
-  //   rootNotionPageId: site.rootNotionPageId,
-  //   recordMap
-  // })
 
   if (!config.isServer) {
     // add important objects to the window global for easy debugging
@@ -264,8 +244,6 @@ export const NotionPage: React.FC<types.PageProps> = ({
         // pageAside={pageAside}
         footer={footer}
       />
-
-      {/* <GitHubShareButton /> */}
     </>
   )
 }

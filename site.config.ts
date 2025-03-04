@@ -2,26 +2,26 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'e75a8a6c2cb74196b40077d9e637939a',
+  rootNotionPageId: '1abb59d9b4c9809abaf7c3d7d045c3db',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Функционально Ориентированное Программирование (ФОП)',
-  domain: 'fop.davidshekunts.ru',
+  name: '(λ) Function Oriented Programming (FOP)',
+  domain: 'fop.davidshekunts.com',
   author: '👨🏻 David Shekunts 👴🏿',
 
   // open graph metadata (optional)
   description:
-    'Функционально Ориентированное Программирование (ФОП) – функциональная альтернатива ООП.',
+    '(λ) Function Oriented Programming (FOP) – functional OOP alternative.',
 
   // social usernames (optional)
-  // twitter: 'transitive_bs',
+  twitter: 'david_shekunts',
   // github: 'transitive-bullshit',
   // linkedin: 'fisch2',
-  telegram: 'it_kachalka',
+  // telegram: 'it_kachalka',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
@@ -45,21 +45,21 @@ export default siteConfig({
   // example:
   //
   pageUrlOverrides: {
-    '/': 'e75a8a6c2cb74196b40077d9e637939a',
+    '/': '1abb59d9b4c9809abaf7c3d7d045c3db',
 
-    '/origins/you-dont-know-oop': 'eca471eb866f44f49bdc6d41982a5f40',
-    '/origins/you-have-never-used-oop': 'b67c730b3fab4d5cb272b48f05eee0a9',
-    '/origins/main-problem-of-oop': 'e5a9cbd25bc7435eb34162e0cec440c1',
+    '/origins/you-dont-know-oop': '1abb59d9b4c9814c8e21ce75593e1b53',
+    '/origins/you-have-never-used-oop': '1abb59d9b4c981b2b578f79daebca059',
+    '/origins/main-problem-of-oop': '1abb59d9b4c98172aed0e4d880d4c73e',
     '/origins/why-fp-and-pp-is-not-a-solution':
-      '01ce5abb272e406496b60c1132c54739',
-    '/origins/fop-birth': '73fadd0dd75a460589726da052c3e8ff',
+      '1abb59d9b4c981c99388ebfbf8a3b7d7',
+    '/origins/fop-birth': '1abb59d9b4c98180ac97d18908092ac6',
 
-    '/flexibility-is-must': 'cc975187f3c14fba99caa5c807301c4a',
-    '/process-first-design': '5148460642b647ae871375cc7a2b5575',
-    '/data-oriented-architecture': '1a5dfe8836e94022a2e6e2e87d677982',
-    '/wynwyn': '38ec934805074a75bdcc89cfd2711d09',
-    '/explicit-better-implicit': 'de28216783954051ade93a6a5ae1bee2',
-    '/occams-chainsaw': '7c4a4ea6eb90499b93e7e09cea3abc40'
+    '/flexibility-is-must': '1abb59d9b4c9816aacd0dbd0d1739aba',
+    '/process-first-design': '1abb59d9b4c9816eb2e7fe92ae1e5b49',
+    '/data-oriented-architecture': '1abb59d9b4c981c6b760ffe71e0d56e2',
+    '/wynwyn': '1abb59d9b4c981e192a8e13d5fa83b03',
+    '/explicit-better-implicit': '1abb59d9b4c9818db1fdea229b5d60f5',
+    '/occams-chainsaw': '1abb59d9b4c9814b99e0e471e73b09ec'
   },
   // pageUrlOverrides: null,
 

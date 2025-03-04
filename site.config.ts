@@ -19,7 +19,7 @@ export default siteConfig({
 
   // social usernames (optional)
   twitter: 'david_shekunts',
-  // github: 'transitive-bullshit',
+  github: 'Dionid',
   // linkedin: 'fisch2',
   // telegram: 'it_kachalka',
   // mastodon: '#', // optional mastodon profile URL, provides link verification

@@ -44,8 +44,6 @@ export default siteConfig({
   // example:
   //
   pageUrlOverrides: {
-    '/': 'e75a8a6c2cb74196b40077d9e637939a',
-
     '/origins/you-dont-know-oop': 'eca471eb866f44f49bdc6d41982a5f40',
     '/origins/you-have-never-used-oop': 'b67c730b3fab4d5cb272b48f05eee0a9',
     '/origins/main-problem-of-oop': 'e5a9cbd25bc7435eb34162e0cec440c1',

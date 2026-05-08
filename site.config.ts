@@ -2,20 +2,20 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '32ab59d9b4c980c6a6eac74842dab007',
+  rootNotionPageId: 'e75a8a6c2cb74196b40077d9e637939a',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'clientful',
-  domain: 'clientful.davidshekunts.ru',
+  name: 'Функционально Ориентированное Программирование (ФОП)',
+  domain: 'fop.davidshekunts.ru',
   author: '👨🏻 David Shekunts 👴🏿',
 
   // open graph metadata (optional)
   description:
-    'clientful – real-time collaborative offline-first applications without backend services and databases.',
+    'Функционально Ориентированное Программирование (ФОП) – функциональная альтернатива ООП.',
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
@@ -43,11 +43,23 @@ export default siteConfig({
   // any pages defined here will override their default URL paths
   // example:
   //
-  // pageUrlOverrides: {
-  //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
-  //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
-  // }
-  pageUrlOverrides: null,
+  pageUrlOverrides: {
+    '/': 'e75a8a6c2cb74196b40077d9e637939a',
+
+    '/origins/you-dont-know-oop': 'eca471eb866f44f49bdc6d41982a5f40',
+    '/origins/you-have-never-used-oop': 'b67c730b3fab4d5cb272b48f05eee0a9',
+    '/origins/main-problem-of-oop': 'e5a9cbd25bc7435eb34162e0cec440c1',
+    '/origins/why-fp-and-pp-is-not-a-solution':
+      '01ce5abb272e406496b60c1132c54739',
+    '/origins/fop-birth': '73fadd0dd75a460589726da052c3e8ff',
+
+    '/flexibility-is-must': 'cc975187f3c14fba99caa5c807301c4a',
+    '/process-first-design': '5148460642b647ae871375cc7a2b5575',
+    '/data-oriented-architecture': '1a5dfe8836e94022a2e6e2e87d677982',
+    '/wynwyn': '38ec934805074a75bdcc89cfd2711d09',
+    '/explicit-better-implicit': 'de28216783954051ade93a6a5ae1bee2',
+    '/occams-chainsaw': '7c4a4ea6eb90499b93e7e09cea3abc40'
+  },
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.

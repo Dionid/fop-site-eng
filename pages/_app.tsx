@@ -1,7 +1,8 @@
 // used for rendering equations (optional)
 import 'katex/dist/katex.min.css'
 // used for code syntax highlighting (optional)
-import 'prismjs/themes/prism-coy.css'
+// import 'prismjs/themes/prism-coy.css'
+import 'styles/prism-one-dark.css'
 // core styles shared by all of react-notion-x (required)
 import 'react-notion-x/styles.css'
 // global styles shared across the entire site

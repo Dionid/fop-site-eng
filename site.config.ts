@@ -18,8 +18,8 @@ export default siteConfig({
     '(λ) Function Oriented Programming (FOP) – functional OOP alternative.',
 
   // social usernames (optional)
-  twitter: 'run_davids_sh',
-  github: 'Dionid',
+  // twitter: 'run_davids_sh',
+  // github: 'Dionid',
   // linkedin: 'fisch2',
   // telegram: 'it_kachalka',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
@@ -44,12 +44,12 @@ export default siteConfig({
   // any pages defined here will override their default URL paths
   // example:
   pageUrlOverrides: {
-    '/origins/you-dont-know-oop': '1abb59d9b4c9814c8e21ce75593e1b53',
-    '/origins/you-have-never-used-oop': '1abb59d9b4c981b2b578f79daebca059',
-    '/origins/main-problem-of-oop': '1abb59d9b4c98172aed0e4d880d4c73e',
-    '/origins/why-fp-and-pp-is-not-a-solution':
+    '/you-dont-know-oop': '1abb59d9b4c9814c8e21ce75593e1b53',
+    '/you-have-never-used-oop': '1abb59d9b4c981b2b578f79daebca059',
+    '/main-problem-of-oop': '1abb59d9b4c98172aed0e4d880d4c73e',
+    '/why-fp-and-pp-is-not-a-solution':
       '1abb59d9b4c981c99388ebfbf8a3b7d7',
-    '/origins/fop-birth': '1abb59d9b4c98180ac97d18908092ac6',
+    '/fop-birth': '1abb59d9b4c98180ac97d18908092ac6',
 
     '/flexibility-is-must': '1abb59d9b4c9816aacd0dbd0d1739aba',
     '/process-first-design': '1abb59d9b4c9816eb2e7fe92ae1e5b49',
